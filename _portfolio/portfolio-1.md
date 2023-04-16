@@ -1,6 +1,7 @@
 ---
 title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img  style='float: left;' src='/images/500x300.png'>"
+excerpt: " <img  style='float: left;' src='/images/500x300.png'> 
+Short description of portfolio item number"
 collection: portfolio
 ---
 
