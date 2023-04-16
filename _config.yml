@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Mr"
+title                    : "Amit Kumar Rana"
 title_separator          : "-"
 name                     : &name "Amit Kumar Rana"
 description              : &description "M.Sc. RWTH Aachen"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Amit Kumar Rana"
   avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "M.Sc. RWTH Aachen University"
   location         : "Aachen, Germany"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -102,14 +102,14 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/akrana94/"
+  linkedin         : "akrana94"
   # orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/amitrana2494"
+  twitter          : "amitrana2494"
   vine             :
   weibo            :
   xing             :
