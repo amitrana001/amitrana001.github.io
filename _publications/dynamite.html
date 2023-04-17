@@ -1,0 +1,62 @@
+---
+title: "DynaMITe: Dynamic Query Bootstrapping for Multi-object Interactive Segmentation Transformer<br>
+        <small>[<a href='https://sabarim.github.io/dynamite/'>Project-page</a>]</small>
+        <small>[<a href='https://arxiv.org/abs/2304.06668'>arXiv</a>]</small>
+        <small>[<a href='https://github.com/sabarim/dynamite/'>Code</a>]</small>
+        <small>[<a href='https://arxiv.org/pdf/2304.06668.pdf'>Paper</a>]</small>"
+collection: publications
+permalink: /publication/dynamite
+excerpt: " <p> <img  style='float: left;' width='200' height='200' margin= 'auto' src='/images/DynaMITE.png'> 
+            Most state-of-the-art instance segmentation methods rely on large amounts of pixel-precise ground-truth annotations
+            for training, which are expensive to create. Interactive segmentation networks help generate such annotations based
+            on an image and the corresponding user interactions such as clicks. Existing methods for this task can only process
+            a single instance at a time and each user interaction requires a full forward pass through the entire deep network.
+            We introduce a more efficient approach, called DynaMITe, in which we represent user interactions as spatio-temporal
+            queries to a Transformer decoder with a potential to segment multiple object instances in a single iteration. Our
+            architecture also alleviates any need to re-compute image features during refinement, and requires fewer interactions
+            for segmenting multiple instances in a single image when compared to other methods. DynaMITe achieves state-of-
+            the-art results on multiple existing interactive segmentation benchmarks, and also on the new multi-instance benchmark
+            that we propose in this paper.</p>"
+date: 2023-04-13
+venue: 'arXiv'
+paperurl: 'https://arxiv.org/abs/2304.06668'
+---
+
+<style>
+    img {
+      max-width: 100%;
+    }
+</style>
+
+<img src='/images/DynaMITE.png'>
+<div class="caption">DynaMITe consists of a backbone, a feature decoder, and an interactive Transformer. Point features at click
+  locations at time t are translated into queries which, along with the multi-scale features, are processed by a Transformer
+  encoder-decoder structure to generate a set of output masks &#8499;<sup>t</sup> for all the relevant objects. Based on Mt, the user provides
+  a new input click which is in turn used by the interactive Transformer to generate a new set of updated masks &#8499;<sup>t+1</sup>. This
+  process is then iterated τ times until the masks are fully refined.</div>
+
+<h2>Abstract</h2>
+Most state-of-the-art instance segmentation methods rely on large amounts of pixel-precise ground-truth annotations
+for training, which are expensive to create. Interactive segmentation networks help generate such annotations based
+on an image and the corresponding user interactions such as clicks. Existing methods for this task can only process
+a single instance at a time and each user interaction requires a full forward pass through the entire deep network.
+We introduce a more efficient approach, called DynaMITe, in which we represent user interactions as spatio-temporal
+queries to a Transformer decoder with a potential to segment multiple object instances in a single iteration. Our
+architecture also alleviates any need to re-compute image features during refinement, and requires fewer interactions
+for segmenting multiple instances in a single image when compared to other methods. DynaMITe achieves state-of-
+the-art results on multiple existing interactive segmentation benchmarks, and also on the new multi-instance benchmark
+that we propose in this paper.
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+    @inproceedings{RanaMahadevan23Arxiv,
+    title={DynaMITe: Dynamic Query Bootstrapping for Multi-object Interactive Segmentation Transformer},
+    author={Rana, Amit and Mahadevan, Sabarinath and Hermans, Alexander and Leibe, Bastian},
+    booktitle=arXiv preprint arXiv:<id>,
+    year={2023}
+    }
+</code></pre>
+  </div>
+</section>
