@@ -1,11 +1,38 @@
 ---
-title: "Portfolio item number 1"
-excerpt: " <p> <img  style='float: left;' width='200' height='200' margin= 'auto' src='/images/500x300.png'> 
-Short description of portfolio item number. This portfolio contation foloowing information. This portfolio contation foloowing information. This portfolio contation foloowing information. This portfolio contation foloowing information.</p>"
-collection: portfolio
+title: "DynaMITe: Dynamic Query Bootstrapping for Multi-object Interactive Segmentation Transformer<br>
+        <small>[<a href='https://github.com/ali-mohammadi-scrc/ML_Lab'>code</a>]</small>
+        <small>[<a href='http://amitrana001.github.io/files/dynamite.pdf'>pdf</a>]</small>"
+excerpt: " <p> <img  style='float: left;' width='200' height='200' margin= 'auto' src='/images/DynaMITE.png'> 
+            Most state-of-the-art instance segmentation methods rely on large amounts of pixel-precise ground-truth annotations
+            for training, which are expensive to create. Interactive segmentation networks help generate such annotations based
+            on an image and the corresponding user interactions such as clicks. Existing methods for this task can only process
+            a single instance at a time and each user interaction requires a full forward pass through the entire deep network.
+            We introduce a more efficient approach, called DynaMITe, in which we represent user interactions as spatio-temporal
+            queries to a Transformer decoder with a potential to segment multiple object instances in a single iteration. Our
+            architecture also alleviates any need to re-compute image features during refinement, and requires fewer interactions
+            for segmenting multiple instances in a single image when compared to other methods. DynaMITe achieves state-of-
+            the-art results on multiple existing interactive segmentation benchmarks, and also on the new multi-instance benchmark
+            that we propose in this paper.</p>
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
-<!-- <img style="float: left;" src='/images/500x300.png'> -->
+<style>
+    img {
+      max-width: 100%;
+    }
+</style>
 
-<!-- Continue markdown text... -->
+<img src='/images/DynaMITE.png'>
+<div class="caption">Netwrok architecture: Extension to baseline model with the addition of skip
+    connections, encoder-decoder blocks are residual blocks.</div>
+
+<h2>Abstract</h2>
+Most state-of-the-art instance segmentation methods rely on large amounts of pixel-precise ground-truth annotations
+for training, which are expensive to create. Interactive segmentation networks help generate such annotations based
+on an image and the corresponding user interactions such as clicks. Existing methods for this task can only process
+a single instance at a time and each user interaction requires a full forward pass through the entire deep network.
+We introduce a more efficient approach, called DynaMITe, in which we represent user interactions as spatio-temporal
+queries to a Transformer decoder with a potential to segment multiple object instances in a single iteration. Our
+architecture also alleviates any need to re-compute image features during refinement, and requires fewer interactions
+for segmenting multiple instances in a single image when compared to other methods. DynaMITe achieves state-of-
+the-art results on multiple existing interactive segmentation benchmarks, and also on the new multi-instance benchmark
+that we propose in this paper.
