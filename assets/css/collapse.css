@@ -13,7 +13,7 @@
 }
 
 
-.container .content {
+/* .container .content {
     display: none;
     padding : 5px;
 
@@ -45,7 +45,7 @@
     -------------------------------- */
     
     
-    #cd-timeline {
+    /* #cd-timeline {
       position: relative;
       padding: 2em 0;
       margin-top: 2em;
@@ -118,7 +118,7 @@
         margin-left: -15px;
         margin-top: 15px;
         /* Force Hardware Acceleration in WebKit */
-        -webkit-transform: translateZ(0);
+        /* -webkit-transform: translateZ(0);
         -webkit-backface-visibility: hidden;
       }
     }
@@ -259,4 +259,4 @@
         text-align: right;
       }
     }
-}
+} */
