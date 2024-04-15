@@ -9,7 +9,13 @@ redirect_from:
 ---
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io). -->
-Hi, I'm Amit. Currently, I'm writing my Master's thesis in Computer Vision Group at RWTH Aachen University. My intersets lies in applications of deep learning in domain of computer vision. I did my Bachelor's from IIT Kanpur, India in 2017 in Computer Science and Engineering. Thereafter, I worked at Samsung Research Center, Noida, India as a machine learning engineer working on a plethora of on-device AI solutions. 
+<!-- Hi, I'm Amit. Currently, I'm writing my Master's thesis in Computer Vision Group at RWTH Aachen University. My intersets lies in applications of deep learning in domain of computer vision. I did my Bachelor's from IIT Kanpur, India in 2017 in Computer Science and Engineering. Thereafter, I worked at Samsung Research Center, Noida, India as a machine learning engineer working on a plethora of on-device AI solutions.  -->
+
+I'm a passionate M.Sc. graduate specializing in Deep Learning and Computer Vision with 5+ years of experience in ML research and engineering. I am excited about researching and creating custom neural architectures, including object detection, segmentation, generative, and large language models.
+
+Notable achievements include multi-instance interactive object segmentation research at Computer Vision Group, RWTH Aachen University, accepted at ICCV 2023 and CVPR 2023 conferences. At Samsung R&D Institute, led the development of on-device AI solutions like GANs-based facial editing, pose detection & matching, and CNNs-based image grouping.
+
+I thrive in ownership-driven roles, taking projects from inception to prototyping while collaborating with cross-functional teams. Passionate about driving innovation in AI and ML. Let's connect and pioneer advancements in artificial intelligence and computer vision together!
 
 <!-- A data-driven personal website
 ======
