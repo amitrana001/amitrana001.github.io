@@ -4,9 +4,9 @@ permalink: /experience/
 title: "Experience"
 excerpt: "Experience"
 author_profile: true
-redirect_from: 
+<!-- redirect_from: 
   - /experience/
-  - /experience.html
+  - /experience.html -->
 ---
 
 {% include base_path %}
@@ -23,7 +23,8 @@ redirect_from:
     font-size: 1.875rem;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
+    /* margin-left: 4rem; */
     color: #6b46c1;
   }
   
@@ -128,50 +129,89 @@ redirect_from:
       
       <div class="timeline-item">
         <div class="timeline-icon-wrapper">
+          <div class="timeline-icon">💼</div>
+        </div>
+        <div class="timeline-card animate-fade-left">
+          <div class="timeline-date">May 2024 – Present</div>
+          <h3 class="timeline-card-title">Senior Machine Learning Engineer</h3>
+          <div class="timeline-organization">Dragonfruit AI, India</div>
+          <p class="timeline-description">
+            Led integration and optimization of YOLOv5/v7/v9 models for CV pipelines. Enhanced CoreML inference on Apple Silicon, and developed pose-based action recognition models. Integrated Florence-2 and SmolVLM-256M for scene understanding and collaborated with product teams to align CV/ML initiatives with business objectives.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-icon-wrapper">
           <div class="timeline-icon">🏆</div>
         </div>
         <div class="timeline-card animate-fade-left">
-          <div class="timeline-date">2023</div>
-          <h3 class="timeline-card-title">Research Publication</h3>
-          <div class="timeline-organization">ICCV 2023 & CVPR 2023</div>
-          <p class="timeline-description">Multi-instance interactive object segmentation research accepted at prestigious computer vision conferences.</p>
-        </div>
-      </div>
-  
-      <div class="timeline-item">
-        <div class="timeline-icon-wrapper">
-          <div class="timeline-icon">🎓</div>
-        </div>
-        <div class="timeline-card animate-fade-left">
-          <div class="timeline-date">2021 - 2023</div>
-          <h3 class="timeline-card-title">M.Sc. Thesis Researcher</h3>
+          <div class="timeline-date">June 2022 – Dec 2023</div>
+          <h3 class="timeline-card-title">Master’s Thesis Student / Research Assistant</h3>
           <div class="timeline-organization">Computer Vision Group, RWTH Aachen University</div>
-          <p class="timeline-description">Specialized in Deep Learning and Computer Vision, conducting research on custom neural architectures.</p>
+          <p class="timeline-description">
+            Developed DynaMITe, an efficient Transformer-based architecture for multi-instance interactive object segmentation. The work was accepted at ICCV 2023 and as a spotlight paper at the Transformers for Vision Workshop, CVPR 2023. Achieved expertise in multi-GPU training across distributed nodes.
+          </p>
         </div>
       </div>
-  
+      
       <div class="timeline-item">
         <div class="timeline-icon-wrapper">
           <div class="timeline-icon">💼</div>
         </div>
         <div class="timeline-card animate-fade-left">
-          <div class="timeline-date">2017 - 2021</div>
+          <div class="timeline-date">Jun 2017 – Nov 2020</div>
           <h3 class="timeline-card-title">Machine Learning Engineer</h3>
-          <div class="timeline-organization">Samsung R&D Institute</div>
-          <p class="timeline-description">Led development of on-device AI solutions including GANs-based facial editing, pose detection & matching, and CNNs-based image grouping.</p>
+          <div class="timeline-organization">Samsung R&D Institute, Noida, India</div>
+          <p class="timeline-description">
+            Created a TensorFlow Lite and OpenPose-based pose detection solution. Built a music recommendation engine for the Samsung music app and prototyped a smart volume control system using voice detection. Mentored intern teams in GAN-based facial editing and CNN-based image grouping projects.
+          </p>
+        </div>
+      </div>
+      
+      <div class="timeline-item">
+        <div class="timeline-icon-wrapper">
+          <div class="timeline-icon">💼</div>
+        </div>
+        <div class="timeline-card animate-fade-left">
+          <div class="timeline-date">May 2016 – Jul 2016</div>
+          <h3 class="timeline-card-title">Data Analyst Intern</h3>
+          <div class="timeline-organization">Barclays Technology Center, Pune</div>
+          <p class="timeline-description">
+            Investigated PySpark and py4j for efficient JVM-to-Python data transfer. Assisted in handling large data pipelines, boosting performance and understanding in the team’s Spark-based projects.
+          </p>
         </div>
       </div>
   
-      <div class="timeline-item">
-        <div class="timeline-icon-wrapper">
-          <div class="timeline-icon">🎓</div>
+
+      <!-- <hr> -->
+
+      <h2 class="timeline-title">Education</h2>
+      <div class="timeline-wrapper">
+        <div class="timeline-line"></div>
+    
+        <div class="timeline-item">
+          <div class="timeline-icon-wrapper">
+            <div class="timeline-icon">🎓</div>
+          </div>
+          <div class="timeline-card animate-fade-left">
+            <div class="timeline-date">Oct 2020 – July 2023</div>
+            <h3 class="timeline-card-title">M.Sc. in Media Informatics</h3>
+            <div class="timeline-organization">RWTH Aachen University, Germany</div>
+            <p class="timeline-description">Graduated with distinction (CGPA: 1.3/4.0; US GPA Equivalent: 4.0/4.0).</p>
+          </div>
         </div>
-        <div class="timeline-card animate-fade-left">
-          <div class="timeline-date">2013 - 2017</div>
-          <h3 class="timeline-card-title">B.Tech. in Computer Science</h3>
-          <div class="timeline-organization">IIT Kanpur</div>
-          <p class="timeline-description">Bachelor's degree in Computer Science and Engineering.</p>
+    
+        <div class="timeline-item">
+          <div class="timeline-icon-wrapper">
+            <div class="timeline-icon">🎓</div>
+          </div>
+          <div class="timeline-card animate-fade-left">
+            <div class="timeline-date">July 2013 – May 2017</div>
+            <h3 class="timeline-card-title">B.Tech. in Computer Science and Engineering</h3>
+            <div class="timeline-organization">IIT Kanpur, India</div>
+            <p class="timeline-description">Graduated with a CGPA of 7.3/10 (US GPA Equivalent: 3.15/4.0).</p>
+          </div>
         </div>
-      </div>
     </div>
   </div>
